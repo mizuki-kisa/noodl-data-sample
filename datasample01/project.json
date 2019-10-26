@@ -1,0 +1,922 @@
+{
+    "name": "NoodlとデータPart1",
+    "components": [
+        {
+            "name": "/Parts/カボチャくんミニ",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "a5afa8f1-cbb4-9636-1f27-7792b58ecedc",
+                        "fromProperty": "itemId",
+                        "toId": "35f92339-dfe9-0e93-333d-5b6b83368682",
+                        "toProperty": "modelId"
+                    },
+                    {
+                        "fromId": "35f92339-dfe9-0e93-333d-5b6b83368682",
+                        "fromProperty": "color",
+                        "toId": "cd4acb55-83df-63b9-7d95-17f141d19c05",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "35f92339-dfe9-0e93-333d-5b6b83368682",
+                        "fromProperty": "color",
+                        "toId": "58ed7bd4-4360-ef60-639b-bccc17f7369b",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "35f92339-dfe9-0e93-333d-5b6b83368682",
+                        "fromProperty": "name",
+                        "toId": "91a57cf7-e52d-1be0-b3a3-617d5f89506f",
+                        "toProperty": "text"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "eaa754de-efad-850e-ac3f-6a94a42f164d",
+                        "type": "Group",
+                        "version": 2,
+                        "x": 1177.5832088019288,
+                        "y": 384.75985230076816,
+                        "parameters": {
+                            "width": {
+                                "value": 540,
+                                "unit": "px"
+                            },
+                            "height": {
+                                "value": 675,
+                                "unit": "px"
+                            },
+                            "sizeMode": "explicit",
+                            "paddingLeft": 20,
+                            "paddingRight": 20,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "b790aa5a-98d4-9b9e-d815-c558368d7844",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "右手",
+                                "x": 1197.5832088019288,
+                                "y": 486.75985230076816,
+                                "parameters": {
+                                    "image": "img/arm.png",
+                                    "rotationY": 180,
+                                    "x": 40,
+                                    "rotationX": 0,
+                                    "rotationZ": 0,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 214,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 206,
+                                        "unit": "px"
+                                    },
+                                    "y": 300
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "fcda81ac-1e5a-8da8-b891-b8ea4c9d6001",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "左手",
+                                "x": 1197.5832088019288,
+                                "y": 583.7598523007682,
+                                "parameters": {
+                                    "image": "img/arm.png",
+                                    "y": 300,
+                                    "alignX": "right",
+                                    "x": -40,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 214,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 206,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "7e112877-ba67-5314-5dcd-b7530d78529c",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "右足",
+                                "x": 1197.5832088019288,
+                                "y": 680.7598523007682,
+                                "parameters": {
+                                    "image": "img/leg.png",
+                                    "rotationY": 180,
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "x": -100,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 49,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 105,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "aadbb203-6e27-5a56-870f-c472ef228e4f",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "左足",
+                                "x": 1197.5832088019288,
+                                "y": 741.7598523007682,
+                                "parameters": {
+                                    "image": "img/leg.png",
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "x": 100,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 49,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 105,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "58ed7bd4-4360-ef60-639b-bccc17f7369b",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "かぼちゃパンツ",
+                                "x": 1197.5832088019288,
+                                "y": 802.7598523007682,
+                                "parameters": {
+                                    "image": "img/zubon.png",
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "y": -75,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 167,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 91,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "129239d9-39e8-0832-a6f3-68e928f1c364",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "服",
+                                "x": 1197.5832088019288,
+                                "y": 899.7598523007682,
+                                "parameters": {
+                                    "image": "img/body.png",
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "y": -90,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 211,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 206,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "cd4acb55-83df-63b9-7d95-17f141d19c05",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "顔面",
+                                "x": 1197.5832088019288,
+                                "y": 960.7598523007682,
+                                "parameters": {
+                                    "image": "img/face.png",
+                                    "alignX": "center",
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 371,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 352,
+                                        "unit": "px"
+                                    },
+                                    "y": 50
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "91a57cf7-e52d-1be0-b3a3-617d5f89506f",
+                                "type": "Text",
+                                "version": 2,
+                                "x": 1197.5832088019288,
+                                "y": 1057.7598523007682,
+                                "parameters": {
+                                    "alignX": "center",
+                                    "alignY": "top",
+                                    "y": 0,
+                                    "text": "▼ Name"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "a5afa8f1-cbb4-9636-1f27-7792b58ecedc",
+                        "type": "For Each Actions",
+                        "x": 604.2236436791417,
+                        "y": 699.7431144127326,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "35f92339-dfe9-0e93-333d-5b6b83368682",
+                        "type": "Model",
+                        "x": 842.8873689600024,
+                        "y": 708.1965012809628,
+                        "parameters": {
+                            "properties": "color,name"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "input/output",
+                                "group": "Properties",
+                                "name": "color",
+                                "index": 7
+                            },
+                            {
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "input/output",
+                                "group": "Properties",
+                                "name": "name",
+                                "index": 8
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Parts/カボチャくんミニ2",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "54425603-8bc6-259d-dead-eaad7169ad07",
+                        "fromProperty": "color",
+                        "toId": "3923cb6b-a828-c407-fcfd-175b1ab006be",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "54425603-8bc6-259d-dead-eaad7169ad07",
+                        "fromProperty": "color",
+                        "toId": "3b8d6890-9e68-f955-136d-9cebd7fd87f9",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "54425603-8bc6-259d-dead-eaad7169ad07",
+                        "fromProperty": "name",
+                        "toId": "807709c5-05be-7ed2-7f2a-afa83ebad567",
+                        "toProperty": "text"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "a8a1a2ff-165d-d87d-b848-d461ed864add",
+                        "type": "Group",
+                        "version": 2,
+                        "x": 483.42791691841563,
+                        "y": 91.43388164300626,
+                        "parameters": {
+                            "width": {
+                                "value": 540,
+                                "unit": "px"
+                            },
+                            "height": {
+                                "value": 675,
+                                "unit": "px"
+                            },
+                            "sizeMode": "explicit",
+                            "paddingLeft": 20,
+                            "paddingRight": 20,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "73f4ab10-c81a-d0ea-ad3b-dbf960561d45",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "右手",
+                                "x": 1197.5832088019288,
+                                "y": 486.75985230076816,
+                                "parameters": {
+                                    "image": "img/arm.png",
+                                    "rotationY": 180,
+                                    "x": 40,
+                                    "rotationX": 0,
+                                    "rotationZ": 0,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 214,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 206,
+                                        "unit": "px"
+                                    },
+                                    "y": 300
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "43ce1e37-29db-3cbe-5f9b-6afd471e3bd4",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "左手",
+                                "x": 1197.5832088019288,
+                                "y": 583.7598523007682,
+                                "parameters": {
+                                    "image": "img/arm.png",
+                                    "y": 300,
+                                    "alignX": "right",
+                                    "x": -40,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 214,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 206,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "cec450fa-97da-0ccc-83ef-ce890a099d94",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "右足",
+                                "x": 1197.5832088019288,
+                                "y": 680.7598523007682,
+                                "parameters": {
+                                    "image": "img/leg.png",
+                                    "rotationY": 180,
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "x": -100,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 49,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 105,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "e96ae86f-b638-9e3a-946a-3c8fd5a0e809",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "左足",
+                                "x": 1197.5832088019288,
+                                "y": 741.7598523007682,
+                                "parameters": {
+                                    "image": "img/leg.png",
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "x": 100,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 49,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 105,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "3b8d6890-9e68-f955-136d-9cebd7fd87f9",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "かぼちゃパンツ",
+                                "x": 20,
+                                "y": 290,
+                                "parameters": {
+                                    "image": "img/zubon.png",
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "y": -75,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 167,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 91,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "3802210d-c4e1-1209-9d85-21ca63fcb393",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "服",
+                                "x": 1197.5832088019288,
+                                "y": 899.7598523007682,
+                                "parameters": {
+                                    "image": "img/body.png",
+                                    "alignX": "center",
+                                    "alignY": "bottom",
+                                    "y": -90,
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 211,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 206,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "3923cb6b-a828-c407-fcfd-175b1ab006be",
+                                "type": "Image",
+                                "version": 2,
+                                "label": "顔面",
+                                "x": 20,
+                                "y": 448,
+                                "parameters": {
+                                    "image": "img/face.png",
+                                    "alignX": "center",
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 371,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 352,
+                                        "unit": "px"
+                                    },
+                                    "y": 50,
+                                    "color": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "807709c5-05be-7ed2-7f2a-afa83ebad567",
+                                "type": "Text",
+                                "version": 2,
+                                "x": 1197.5832088019288,
+                                "y": 1057.7598523007682,
+                                "parameters": {
+                                    "alignX": "center",
+                                    "alignY": "top",
+                                    "y": 0,
+                                    "text": "▼ Name"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54425603-8bc6-259d-dead-eaad7169ad07",
+                        "type": "Component Inputs",
+                        "x": 163.74332506636347,
+                        "y": 320.5728823318538,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "color",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            },
+                            {
+                                "name": "name",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 2
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Main",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "82826c53-e0d1-b8b2-a1f3-678b5aa32619",
+                        "fromProperty": "items",
+                        "toId": "a33cc6c4-260a-7357-fbe1-815c93915237",
+                        "toProperty": "items"
+                    },
+                    {
+                        "fromId": "eeb61bb6-031a-0221-95ee-7d8bcad52f66",
+                        "fromProperty": "savedValue",
+                        "toId": "6f5e0540-3b81-7a8b-8a60-18679bcca444",
+                        "toProperty": "store"
+                    },
+                    {
+                        "fromId": "b2d9b7a1-8b04-b0c8-1b04-0949a71b500a",
+                        "fromProperty": "savedValue",
+                        "toId": "6f5e0540-3b81-7a8b-8a60-18679bcca444",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "a6fcfa04-5596-dfed-86df-9f93e18cfe6b",
+                        "fromProperty": "savedValue",
+                        "toId": "6f5e0540-3b81-7a8b-8a60-18679bcca444",
+                        "toProperty": "modelId"
+                    },
+                    {
+                        "fromId": "3fc0342f-3085-725a-5875-0aee0cc9288e",
+                        "fromProperty": "savedValue",
+                        "toId": "6f5e0540-3b81-7a8b-8a60-18679bcca444",
+                        "toProperty": "name"
+                    },
+                    {
+                        "fromId": "eeb61bb6-031a-0221-95ee-7d8bcad52f66",
+                        "fromProperty": "savedValue",
+                        "toId": "2bff7a5d-9150-4105-4035-1f2bd139de0b",
+                        "toProperty": "store"
+                    },
+                    {
+                        "fromId": "dbb2ffb9-bc00-a7cb-7791-52a566f3c343",
+                        "fromProperty": "savedValue",
+                        "toId": "2bff7a5d-9150-4105-4035-1f2bd139de0b",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "732c5a7b-0a3b-f754-5a29-30f66f2b045a",
+                        "fromProperty": "savedValue",
+                        "toId": "2bff7a5d-9150-4105-4035-1f2bd139de0b",
+                        "toProperty": "modelId"
+                    },
+                    {
+                        "fromId": "19efd1d1-39f8-b9e6-b11a-1b2047d57f1d",
+                        "fromProperty": "savedValue",
+                        "toId": "2bff7a5d-9150-4105-4035-1f2bd139de0b",
+                        "toProperty": "name"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "15688852-9ed2-9fcd-1a9a-fb88a431df6c",
+                        "type": "Group",
+                        "version": 2,
+                        "x": 387.223167412765,
+                        "y": 265.90076924787434,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "10f9e63c-f6da-8a7a-4b35-32495f793a85",
+                                "type": "Rectangle",
+                                "label": "Background",
+                                "x": 248.29318692940285,
+                                "y": 326.738140544648,
+                                "parameters": {
+                                    "color": "#222222"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "b7293987-afe2-8bc3-b870-e0af97e5a729",
+                                "type": "Text",
+                                "version": 2,
+                                "label": "カボチャ公園",
+                                "x": 20,
+                                "y": 107,
+                                "parameters": {
+                                    "alignX": "center",
+                                    "y": 120,
+                                    "fontSize": 100,
+                                    "text": "Kabocha Park",
+                                    "color": "#AAAAAA",
+                                    "fontFamily": "Helvetica"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "eb1e2700-9969-7476-8ac1-6119fc828fdd",
+                                "type": "Scroll View",
+                                "x": 20,
+                                "y": 168,
+                                "parameters": {
+                                    "scrollAxis": "0",
+                                    "sizeMode": "childSize",
+                                    "alignX": "center",
+                                    "alignY": "center"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "a33cc6c4-260a-7357-fbe1-815c93915237",
+                                        "type": "For Each",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "template": "/Parts/カボチャくんミニ"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ff70077b-5e79-0cc5-c75a-80696db405fc",
+                        "type": "Static Data",
+                        "label": "かぼちゃ一覧",
+                        "x": -363.55551757203176,
+                        "y": 415.8597888724254,
+                        "parameters": {
+                            "type": "json",
+                            "json": "[\n    {\n        \"color\": \"#ff6347\",\n        \"id\": \"S001\",\n        \"name\": \"かぼちゃA\"\n    },\n    {\n        \"color\": \"#ff4500\",\n        \"id\": \"S002\",\n        \"name\": \"かぼちゃB\"\n    },\n    {\n        \"color\": \"#ffd700\",\n        \"id\": \"S003\",\n        \"name\": \"かぼちゃC\"\n    },\n    {\n        \"color\": \"#ff4500\",\n        \"id\": \"S004\",\n        \"name\": \"かぼちゃD\"\n    },\n    {\n        \"color\": \"#2e8b57\",\n        \"id\": \"S005\",\n        \"name\": \"かぼちゃE\"\n    }\n]"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "82826c53-e0d1-b8b2-a1f3-678b5aa32619",
+                        "type": "Static Data",
+                        "label": "かぼちゃ一覧 CSV",
+                        "x": -351.80080951927613,
+                        "y": 236.9258980559639,
+                        "parameters": {
+                            "type": "csv",
+                            "json": "\n\n[\n    {\n        \"color\": \"#ff6347\",\n        \"id\": \"S001\",\n        \"name\": \"かぼちゃA\"\n    },\n    {\n        \"color\": \"#ff4500\",\n        \"id\": \"S002\",\n        \"name\": \"かぼちゃB\"\n    },\n    {\n        \"color\": \"#ffd700\",\n        \"id\": \"S003\",\n        \"name\": \"かぼちゃC\"\n    },\n    {\n        \"color\": \"#ff4500\",\n        \"id\": \"S004\",\n        \"name\": \"かぼちゃD\"\n    },\n    {\n        \"color\": \"#2e8b57\",\n        \"id\": \"S005\",\n        \"name\": \"かぼちゃE\"\n    }\n]",
+                            "csv": "color,id,name\r\n#ff6347,C001,かぼちゃA\r\n#ff4500,C002,かぼちゃB\r\n#ffd700,C003,かぼちゃC\r\n#ff4500,C004,かぼちゃD\r\n#2e8b57,C005,かぼちゃE"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "eeb61bb6-031a-0221-95ee-7d8bcad52f66",
+                        "type": "Boolean",
+                        "x": 192.57260842574624,
+                        "y": 609.4024968642982,
+                        "parameters": {
+                            "value": true
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "a6fcfa04-5596-dfed-86df-9f93e18cfe6b",
+                        "type": "String",
+                        "label": "id",
+                        "x": 72.19496631237098,
+                        "y": 740.420053528412,
+                        "parameters": {
+                            "value": "kabo2"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "b2d9b7a1-8b04-b0c8-1b04-0949a71b500a",
+                        "type": "Color",
+                        "label": "color",
+                        "x": 69.9621803217351,
+                        "y": 998.1872675377765,
+                        "parameters": {
+                            "value": "#2E873A"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "6f5e0540-3b81-7a8b-8a60-18679bcca444",
+                        "type": "Model",
+                        "label": "かぼ太郎Bの属性",
+                        "x": 302.148518371034,
+                        "y": 814.2353083075033,
+                        "parameters": {
+                            "properties": "color,name",
+                            "modelId": "kabo1"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "input/output",
+                                "group": "Properties",
+                                "name": "color",
+                                "index": 7
+                            },
+                            {
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "input/output",
+                                "group": "Properties",
+                                "name": "name",
+                                "index": 8
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "3fc0342f-3085-725a-5875-0aee0cc9288e",
+                        "type": "String",
+                        "label": "name",
+                        "x": 72.19496631237098,
+                        "y": 869.4200535284117,
+                        "parameters": {
+                            "value": "かぼ太郎B"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "732c5a7b-0a3b-f754-5a29-30f66f2b045a",
+                        "type": "String",
+                        "label": "id",
+                        "x": -405.0079676756019,
+                        "y": 732.2283436398915,
+                        "parameters": {
+                            "value": "kabo1"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "dbb2ffb9-bc00-a7cb-7791-52a566f3c343",
+                        "type": "Color",
+                        "label": "color",
+                        "x": -406.0079676756019,
+                        "y": 991.2283436398914,
+                        "parameters": {
+                            "value": "#FF9300"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "2bff7a5d-9150-4105-4035-1f2bd139de0b",
+                        "type": "Model",
+                        "label": "かぼ太郎Aの属性",
+                        "x": -175.05441561693937,
+                        "y": 807.2763844096186,
+                        "parameters": {
+                            "properties": "color,name",
+                            "modelId": "kabo1"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "input/output",
+                                "group": "Properties",
+                                "name": "color",
+                                "index": 7
+                            },
+                            {
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "input/output",
+                                "group": "Properties",
+                                "name": "name",
+                                "index": 8
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "19efd1d1-39f8-b9e6-b11a-1b2047d57f1d",
+                        "type": "String",
+                        "label": "name",
+                        "x": -405.0079676756019,
+                        "y": 861.2283436398911,
+                        "parameters": {
+                            "value": "かぼ太郎A"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {
+        "devices": "Noodl_device",
+        "Default Device.fillMode": "aspectFit",
+        "Default Device.canvasWidth": 1080,
+        "Default Device.canvasHeight": 1920,
+        "mqttUseExternalBroker": true,
+        "mqttBrokerUrl": "wss://74a89d6e:0481bff0962af1f1@broker.shiftr.io"
+    },
+    "rootNodeId": "15688852-9ed2-9fcd-1a9a-fb88a431df6c",
+    "version": "1"
+}
